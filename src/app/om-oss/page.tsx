@@ -11,7 +11,7 @@ export default function AboutPage() {
           <div className='container'>
             <div className='row align-items-center mb-5'>
               <div className='col-lg-7 mt-4 mt-lg-0'>
-                <h1 className='fs-1'>Om Länsinfra AB</h1>
+                <h1 className='fs-1'>Om LänsInfra AB</h1>
                 <p style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora.</p>
                 <p className='mb-0' style={{maxWidth:"650px"}}>Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere! Doloremque expedita molestias obcaecati dignissimos dolorum quibusdam id enim ut eaque, laboriosam, tenetur, nihil quaerat culpa assumenda quam eligendi officia.</p>
               </div>
@@ -53,7 +53,7 @@ export default function AboutPage() {
                     L0,120
                     Z
                   "
-                  fill="#f8f9fa"
+                  fill="#ffffffff"
                 />
             </svg>
           </div>

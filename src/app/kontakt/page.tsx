@@ -8,7 +8,7 @@ export default function AboutPage() {
     <main>
       <section className='py-5 position-relative overflow-hidden bg-light'>
         <div className='container pb-4 pb-lg-5 mb-5'>
-          <div className="row pt-lg-5 pt-4">
+          <div className="row pt-lg-5 pt-4 align-items-start">
             <div className="col-lg-6 col-xl-6">
               <h1>Kontakta oss</h1>
 
@@ -29,12 +29,7 @@ export default function AboutPage() {
 
               <div className="row py-4 px-1 g-5 justify-content-center justify-content-sm-start">
                 <div className="col-auto d-flex flex-column align-items-center mb-5 gap-2">
-                  <img
-                    className="img-fluid rounded-circle"
-                    style={{ objectFit: "cover", height: "150px", width: "150px" }}
-                    src="/images/event.webp"
-                    alt=""
-                  />
+                  <img className="img-fluid rounded-circle" style={{ objectFit: "cover", height: "150px", width: "150px" }} src="/images/event.webp" alt="Bild på Fredrik"/>
                   <strong>Fredrik Arwidsson</strong>
                   <a className="link-lansinfra-orange" style={{ fontSize: "11px" }} href="mailto:fredrik@lansinfra.se">
                     fredrik@lansinfra.se
@@ -46,7 +41,7 @@ export default function AboutPage() {
 
                 <div className="col-auto d-flex flex-column align-items-center mb-5 gap-2">
                   <img
-                    className="img-fluid rounded-circle bg-white" style={{ objectFit: "cover", height: "150px", width: "150px" }} src="/images/event.jpg" alt=""
+                    className="img-fluid rounded-circle bg-white" style={{ objectFit: "cover", height: "150px", width: "150px" }} src="/images/event.jpg" alt="Bild på Taulant"
                   />
                   <strong>Taulant Lami</strong>
                   <a className="link-lansinfra-orange" style={{ fontSize: "11px" }} href="mailto:taulant@lansinfra.se">
@@ -60,7 +55,7 @@ export default function AboutPage() {
 
               <h2>Vanliga frågor</h2>
 
-              <div className="accordion shadow-sm border-0" id="FAQ">
+              <div className="accordion shadow-sm border-0 mt-4" id="FAQ">
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
