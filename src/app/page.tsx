@@ -29,12 +29,12 @@ export default function HomePage() {
                     L0,120
                     Z
                   "
-                  fill="#fbf3f0"
+                  fill="#fbf4f0"
                 />
               </svg>
             </div>
         </section>
-        <section className='py-sm-5 pt-4 pb-3 position-relative overflow-hidden' style={{backgroundColor:"#fbf3f0"}}>
+        <section className='py-sm-5 pt-4 pb-3 position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0"}}>
           <div className='container'>
             <div className='d-flex flex-column flex-lg-row w-100 justify-content-between align-items-lg-end mb-4'>
               <div>

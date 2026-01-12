@@ -144,7 +144,7 @@ h6 {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #fbf3f0;
+  background-color: #fbf4f0;
   color: #000000;
   box-shadow: none;
   font-weight: bold;

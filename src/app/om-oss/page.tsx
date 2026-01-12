@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <>
     <main>
-        <section className='pt-5 position-relative overflow-hidden' style={{backgroundColor:"#fbf3f0"}}>
+        <section className='pt-5 position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0"}}>
           <div className='container'>
             <div className='row align-items-center mb-5'>
               <div className='col-lg-7 mt-4 mt-lg-0'>
