@@ -18,7 +18,7 @@ export default function AboutPage() {
                 <img src="images/arbetsplats-1920x1280.jpg" className='img-fluid w-100' style={{maxHeight:"300px", objectFit:"cover"}} alt="" />
               </div>
             </div>
-            <div className='mb-3 g-4 row'>
+            <div className='g-4 row'>
               <div className='col-lg-5 col-md-7'>
                 <img className='img-fluid w-100' style={{height:"300px", objectFit:"cover"}} src="images/event_2.webp" alt="" />
               </div>
@@ -52,12 +52,12 @@ export default function AboutPage() {
                     L0,120
                     Z
                   "
-                  fill="#ffffffff"
+                  fill="rgb(255, 255, 255)"
                 />
             </svg>
           </div>
         </section>
-        <section className='py-4 py-sm-5'>
+        <section className='py-4 py-sm-5 bg-white'>
           <div className='container'>
             <h2 className='text-center mb-4 mb-sm-5'>Vad kännetecknar oss?</h2>
             <div className='row g-4 justify-content-center'>

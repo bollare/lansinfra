@@ -5,12 +5,12 @@ export default function Navbar() {
   return (
       <nav className="navbar navbar-expand-md bg-body-tertiary sticky-top bg-white" style={{zIndex:"9999"}}>
         <div className="container py-2">
-          <div className='d-flex align-items-center'>
+          <a href='/' className='d-flex align-items-center text-decoration-none'>
             <Image className='me-1' src="/images/lansinfra-logo-icon.png" height={36} width={30} alt="" />
             <div className='fw-bold mt-1' style={{lineHeight:"13px", fontSize:"10px"}}>
               <span className='fs-4 text-dark'>LänsInfra AB</span>
             </div>
-          </div>
+          </a>
           <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="toggler-line top" />
             <span className="toggler-line middle" />

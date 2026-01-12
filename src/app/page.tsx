@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className='container position-relative h-100 d-flex justify-content-center align-items-start flex-column pb-5'>
             <h1 className='text-white mb-3' style={{maxWidth:"650px"}}>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
             <p className='lead text-white' style={{maxWidth:"650px"}}>Soluta commodi veniam, aut cum reiciendis quaerat laborum vel dolores. Dolore, tenetur!</p>
-            <a className='btn btn-lansinfra-primary btn-lg mt-2' href="">Kontakta oss</a>
+            <a className='btn btn-lansinfra-primary btn-lg mt-2' href="/kontakt">Kontakta oss</a>
           </div>
           <div className="shape-divider" style={{marginBottom:"-5px"}}>
               <svg
@@ -42,7 +42,7 @@ export default function HomePage() {
                 <p className='mb-0' style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora.</p>
               </div>
               <div className='mt-4 mt-lg-0'>
-                <a className='btn btn-dark' href="">Läs mer om våra tjänster</a>
+                <a className='btn btn-dark' href="/om-oss">Läs mer om våra tjänster</a>
               </div>
             </div>
             
@@ -108,7 +108,7 @@ export default function HomePage() {
                 <h2>Varför välja oss?</h2>
                 <p style={{maxWidth:"750px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab neque, libero esse voluptatibus reprehenderit dolores corporis reiciendis ea alias, soluta amet, perferendis id repellendus quod quia earum beatae hic enim optio dicta natus deserunt dolor! Officia aut temporibus nam!</p>
                 <p style={{maxWidth:"750px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate laboriosam voluptates, voluptatibus qui ipsa cum nobis voluptas accusantium rem?</p>
-                <a href="" className='btn btn-dark mt-2'>Läs mer om oss</a>
+                <a href="/om-oss" className='btn btn-dark mt-2'>Läs mer om oss</a>
               </div>
             </div>
           </div>

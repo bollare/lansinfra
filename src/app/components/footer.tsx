@@ -14,12 +14,12 @@ export default function Footer() {
           <a className='nav-link fs-sm' href="tel:0701234567">070 123 45 67</a>
         </div>
 
-        <div className='d-flex align-items-center order-first order-md-2 mb-4 mb-md-0'>
+        <a href='/' className='d-flex align-items-center order-first order-md-2 mb-4 mb-md-0 text-decoration-none'>
           <Image className='me-2' src="/images/lansinfra-logo-icon.png" height={30} width={25} alt="" />
           <div className='fw-bold mt-1' style={{lineHeight:"13px", fontSize:"10px"}}>
             <span className='fs-5 text-dark'>LänsInfra AB</span>
           </div>
-        </div>
+        </a>
 
         <ul  className="nav col-md-4 flex-wrap flex-column flex-md-row justify-content-md-end order-md-3 mt-4 mt-md-0 gap-3">
           <li  className="nav-item">
