@@ -5,7 +5,6 @@ import CTA from '../components/cta'
 export default function AboutPage() {
   return (
     <>
-    <Navbar></Navbar>
     <main>
         <section className='pt-5 position-relative overflow-hidden' style={{backgroundColor:"#fbf3f0"}}>
           <div className='container'>
@@ -147,7 +146,6 @@ export default function AboutPage() {
         </section>
         <CTA></CTA>
     </main>
-    <Footer></Footer>
     </>
   )
 }

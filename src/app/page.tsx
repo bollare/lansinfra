@@ -5,13 +5,12 @@ import CTA from './components/cta'
 export default function HomePage() {
   return (
     <>
-    <Navbar></Navbar>
     <main>
-        <section className='position-relative' style={{height:"550px", backgroundImage:"url(/images/arbetsplats-1920x1280.jpg)", backgroundSize:"cover", overflow:"hidden", backgroundAttachment:"fixed"}}>
+        <section className='position-relative' style={{height:"500px", backgroundImage:"url(/images/arbetsplats-1920x1280.jpg)", backgroundSize:"cover", overflow:"hidden", backgroundAttachment:"fixed"}}>
           <div className='position-absolute w-100 h-100 opacity-50 bg-dark'></div>
           <div className='container position-relative h-100 d-flex justify-content-center align-items-start flex-column pb-5'>
             <h1 className='text-white mb-3' style={{maxWidth:"650px"}}>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-            <p className='lead text-white' style={{maxWidth:"650px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta commodi veniam, aut cum reiciendis quaerat laborum vel dolores. Dolore, tenetur!</p>
+            <p className='lead text-white' style={{maxWidth:"650px"}}>Soluta commodi veniam, aut cum reiciendis quaerat laborum vel dolores. Dolore, tenetur!</p>
             <a className='btn btn-lansinfra-primary btn-lg mt-2' href="">Kontakta oss</a>
           </div>
           <div className="shape-divider" style={{marginBottom:"-5px"}}>
@@ -35,14 +34,14 @@ export default function HomePage() {
               </svg>
             </div>
         </section>
-        <section className='py-sm-5 py-4 position-relative overflow-hidden' style={{backgroundColor:"#fbf3f0"}}>
+        <section className='py-sm-5 pt-4 pb-3 position-relative overflow-hidden' style={{backgroundColor:"#fbf3f0"}}>
           <div className='container'>
-            <div className='d-flex w-100 justify-content-between align-items-end mb-4'>
+            <div className='d-flex flex-column flex-lg-row w-100 justify-content-between align-items-lg-end mb-4'>
               <div>
                 <h2 className='fs-1'>Våra tjänster</h2>
                 <p className='mb-0' style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora.</p>
               </div>
-              <div>
+              <div className='mt-4 mt-lg-0'>
                 <a className='btn btn-dark' href="">Läs mer om våra tjänster</a>
               </div>
             </div>
@@ -50,28 +49,28 @@ export default function HomePage() {
             <div className='row g-4 pb-5 mb-5 text-dark'>
               <div className='col-lg-3 col-sm-6'>
                 <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px"}} src="/images/grind.jpg" alt="" />
+                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/grind.jpg" alt="" />
                   <h3 className='fs-4 mt-3'>Tjänst 1</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
                 </div>
               </div>
               <div className='col-lg-3 col-sm-6'>
                 <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px"}} src="/images/event.jpg" alt="" />
+                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/event.jpg" alt="" />
                   <h3 className='fs-4 mt-3'>Tjänst 2</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
                 </div>
               </div>
               <div className='col-lg-3 col-sm-6'>
                 <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px"}} src="/images/områdesskydd-grafik.jpg" alt="" />
+                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/områdesskydd-grafik.jpg" alt="" />
                   <h3 className='fs-4 mt-3 '>Tjänst 3</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
                 </div>
               </div>
               <div className='col-lg-3 col-sm-6'>
                 <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px"}} src="/images/event.jpg" alt="" />
+                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/event.jpg" alt="" />
                   <h3 className='fs-4 mt-3'>Tjänst 4</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
                 </div>
@@ -94,21 +93,18 @@ export default function HomePage() {
                     L0,120
                     Z
                   "
-                  fill="#f8f9fa"
+                  fill="#ffffff"
                 />
             </svg>
           </div>
         </section>
-        <section className='py-4 py-sm-5 bg-light'>
+        <section className='pt-4 pt-sm-5 pb-5 mb-lg-4'>
           <div className='container'>
-            <div className='d-flex align-items-center gap-5'>
-              <div className='w-75 row g-0 rounded overflow-hidden shadow'>
-                <img className='col-6' src="/images/grind.jpg" alt="" />
-                <img className='col-6' src="/images/event.jpg" alt="" />
-                <img className='col-6' src="/images/områdesskydd-grafik.jpg" alt="" />
-                <img className='col-6' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='row g-4 g-lg-5 align-items-center'>
+              <div className='col-md-6 h-100'>
+                <img className="img-fluid w-100 h-100" style={{objectFit:"cover"}} src="/images/områdesskydd-grafik.jpg" alt="" />
               </div>
-              <div className='w-100'>
+              <div className='col-md-6'>
                 <h2>Varför välja oss?</h2>
                 <p style={{maxWidth:"750px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab neque, libero esse voluptatibus reprehenderit dolores corporis reiciendis ea alias, soluta amet, perferendis id repellendus quod quia earum beatae hic enim optio dicta natus deserunt dolor! Officia aut temporibus nam!</p>
                 <p style={{maxWidth:"750px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate laboriosam voluptates, voluptatibus qui ipsa cum nobis voluptas accusantium rem?</p>
@@ -119,7 +115,6 @@ export default function HomePage() {
         </section>
         <CTA></CTA>
     </main>
-    <Footer></Footer>
     </>
   )
 }

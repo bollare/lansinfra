@@ -5,7 +5,6 @@ import CTA from '../components/cta'
 export default function AboutPage() {
   return (
     <>
-    <Navbar></Navbar>
     <main>
         <section className='py-5 position-relative overflow-hidden' style={{backgroundColor:"#fbf3f0"}}>
           <div className='container'>
@@ -36,12 +35,12 @@ export default function AboutPage() {
                     L0,120
                     Z
                   "
-                  fill="#f8f9fa"
+                  fill="#ffffff"
                 />
             </svg>
           </div>
         </section>
-        <section className='py-sm-5 py-4 bg-light position-relative overflow-hidden'>
+        <section className='py-sm-5 py-4 position-relative overflow-hidden'>
           <div className='container'>
             <div className='row align-items-center mb-4 mb-lg-5 g-5'>
               <div className='col-auto order-last'>
@@ -125,7 +124,6 @@ export default function AboutPage() {
         </section>
         <CTA></CTA>
     </main>
-    <Footer></Footer>
     </>
   )
 }

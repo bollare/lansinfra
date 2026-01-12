@@ -4,7 +4,6 @@ import Footer from '../components/footer'
 export default function AboutPage() {
   return (
     <>
-    <Navbar></Navbar>
     <main>
       <section className='py-5 position-relative overflow-hidden bg-light'>
         <div className='container pb-4 pb-lg-5 mb-5'>
@@ -168,10 +167,8 @@ export default function AboutPage() {
             </svg>
           </div>
       </section>
-      
+    
     </main>
-
-    <Footer></Footer>
     </>
   )
 }

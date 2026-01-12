@@ -4,6 +4,7 @@ import Script from 'next/script'
 import { Montserrat } from 'next/font/google'
 import "./globals.css";
 import Navbar from './components/navbar'
+import Footer from './components/footer';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -24,11 +25,13 @@ export default function RootLayout({
   return (
     <html lang="sv" className={montserrat.variable}>
       <body>
+        <Navbar></Navbar>
         {children}
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           strategy="afterInteractive"
         />
+        <Footer></Footer>
       </body>
     </html>
   );
