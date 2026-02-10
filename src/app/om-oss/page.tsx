@@ -11,10 +11,9 @@ export default function AboutPage() {
             <div className='row align-items-center mb-5'>
               <div className='col-lg-7 mt-4 mt-lg-0'>
                 <h1 className='fs-1'>Om LänsInfra AB</h1>
-                <p style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora.</p>
-                <p className='mb-0' style={{maxWidth:"650px"}}>Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere!</p>
-                <div className='d-flex flex-wrap gap-4 gap-sm-5 mt-4'>
-                  <div className='d-flex flex-column gap-1'>
+                <p style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora. Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere!</p>
+                <div className='d-flex flex-wrap gap-4 gap-sm-5'>
+                  <div className='d-flex flex-column'>
                     <h2 className='fs-6 mb-1 fw-bold'>Floby</h2>
                     <span>Lärargatan 5</span>
                     <span>521 51 Floby</span>

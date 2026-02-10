@@ -16,8 +16,22 @@ export default function AboutPage() {
                 Hör gärna av dig till oss så hjälper vi dig vidare och ger dig den
                 information du behöver.
               </p>
+              
+              <div className='d-flex flex-wrap gap-4 gap-sm-5'>
+                  <div className='d-flex flex-column'>
+                    <h2 className='fs-6 mb-1 fw-bold'>Floby</h2>
+                    <span>Lärargatan 5</span>
+                    <span>521 51 Floby</span>
+                  </div>
+                  <div className='d-flex flex-column'>
+                    <h2 className='fs-6 mb-1 fw-bold'>Helsingborg</h2>
+                    <span>Södra Storgatan 37</span>
+                    <span>250 05 Helsingborg</span>
+                    <span>Box 5050</span>
+                  </div>
+                </div>
 
-              <div className="mt-4 mb-4 pb-4 d-flex flex-column align-items-start gap-3">
+              <div className="mt-4 mb-4 pb-4 d-flex flex-column align-items-start gap-2">
                 <a className="d-block link-lansinfra-orange" href="mailto:info@example.com">
                   info@lansinfra.se
                 </a>
