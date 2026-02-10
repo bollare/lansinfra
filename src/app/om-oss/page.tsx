@@ -13,14 +13,14 @@ export default function AboutPage() {
                 <h1 className='fs-1'>Om LänsInfra AB</h1>
                 <p style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora.</p>
                 <p className='mb-0' style={{maxWidth:"650px"}}>Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere!</p>
-                <div className='d-flex flex-wrap gap-4'>
+                <div className='d-flex flex-wrap gap-4 gap-sm-5 mt-4'>
                   <div className='d-flex flex-column gap-1'>
-                    <h2 className='fs-5 fw-bold'>Floby</h2>
+                    <h2 className='fs-6 mb-1 fw-bold'>Floby</h2>
                     <span>Lärargatan 5</span>
                     <span>521 51 Floby</span>
                   </div>
-                  <div className='d-flex flex-column gap-1'>
-                    <h2 className='fs-5 fw-bold'>Helsingborg</h2>
+                  <div className='d-flex flex-column'>
+                    <h2 className='fs-6 mb-1 fw-bold'>Helsingborg</h2>
                     <span>Södra Storgatan 37</span>
                     <span>250 05 Helsingborg</span>
                     <span>Box 5050</span>
