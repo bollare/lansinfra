@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <>
     <main>
-        <section className='position-relative' style={{height:"500px", backgroundImage:"url(/images/arbetsplats-1920x1280.jpg)", backgroundSize:"cover", overflow:"hidden", backgroundAttachment:"fixed"}}>
+        <section className='position-relative' style={{height:"90vh", backgroundImage:"url(/images/arbetsplats-1920x1280.jpg)", backgroundSize:"cover", overflow:"hidden", backgroundAttachment:"fixed"}}>
           <div className='position-absolute w-100 h-100 opacity-50 bg-dark'></div>
           <div className='container position-relative h-100 d-flex justify-content-center align-items-start flex-column pb-5'>
             <h1 className='text-white mb-3' style={{maxWidth:"650px"}}>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
@@ -39,40 +39,45 @@ export default function HomePage() {
             <div className='d-flex flex-column flex-lg-row w-100 justify-content-between align-items-lg-end mb-4'>
               <div>
                 <h2 className='fs-1'>Våra tjänster</h2>
-                <p className='mb-0' style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora.</p>
+                <p className='mb-0' style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat.</p>
               </div>
               <div className='mt-4 mt-lg-0'>
                 <a className='btn btn-dark' href="/om-oss">Läs mer om våra tjänster</a>
               </div>
             </div>
-            
-            <div className='row g-4 pb-5 mb-5 text-dark'>
-              <div className='col-lg-3 col-sm-6'>
-                <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/grind.jpg" alt="" />
-                  <h3 className='fs-4 mt-3'>Tjänst 1</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+            <div className='p-5 shadow mb-5' style={{backgroundImage:"url(/images/stockholm_byggplats_2.webp)", backgroundSize:"cover", backgroundPosition:"0 75%", backgroundAttachment:"fixed"}}>
+              <div className='row g-4 text-dark my-5'>
+                <div className='col-lg-3 col-sm-6'>
+                  <div className='card card-hover card-body border-0 shadow'>
+                    <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/grind.jpg" alt="" />
+                    <h3 className='fs-5 mt-3'>Tjänst 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                    <a className='link-lansinfra-orange' href="">Läs mer &#8594;</a>
+                  </div>
                 </div>
-              </div>
-              <div className='col-lg-3 col-sm-6'>
-                <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/event.jpg" alt="" />
-                  <h3 className='fs-4 mt-3'>Tjänst 2</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                <div className='col-lg-3 col-sm-6'>
+                  <div className='card card-hover card-hover card-body border-0 shadow'>
+                    <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/event.jpg" alt="" />
+                    <h3 className='fs-5 mt-3'>Tjänst 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                    <a className='link-lansinfra-orange' href="">Läs mer &#8594;</a>
+                  </div>
                 </div>
-              </div>
-              <div className='col-lg-3 col-sm-6'>
-                <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/områdesskydd-grafik.jpg" alt="" />
-                  <h3 className='fs-4 mt-3 '>Tjänst 3</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                <div className='col-lg-3 col-sm-6'>
+                  <div className='card card-hover card-body border-0 shadow'>
+                    <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/områdesskydd-grafik.jpg" alt="" />
+                    <h3 className='fs-5 mt-3 '>Tjänst 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                    <a className='link-lansinfra-orange' href="">Läs mer &#8594;</a>
+                  </div>
                 </div>
-              </div>
-              <div className='col-lg-3 col-sm-6'>
-                <div className='card card-body border-0 shadow'>
-                  <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/event.jpg" alt="" />
-                  <h3 className='fs-4 mt-3'>Tjänst 4</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                <div className='col-lg-3 col-sm-6'>
+                  <div className='card card-hover card-body border-0 shadow'>
+                    <img style={{objectFit:"cover", width:"100%;", maxHeight:"200px;"}} src="/images/event.jpg" alt="" />
+                    <h3 className='fs-5 mt-3'>Tjänst 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa? Cupiditate eveniet obcaecati odio aliquam.</p>
+                    <a className='link-lansinfra-orange' href="">Läs mer &#8594;</a>
+                  </div>
                 </div>
               </div>
             </div>
