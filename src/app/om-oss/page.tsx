@@ -27,24 +27,24 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className='col-lg-5 order-first order-lg-last'>
-                <img src="images/arbetsplats-1920x1280.jpg" className='img-fluid w-100' style={{maxHeight:"300px", objectFit:"cover"}} alt="" />
+                <img src="images/arbetsplats-1920x1280.jpg" className='img-fluid w-100 rounded-3 shadow' style={{maxHeight:"300px", objectFit:"cover"}} alt="" />
               </div>
             </div>
             <div className='g-4 row'>
               <div className='col-lg-5 col-md-7'>
-                <img className='img-fluid w-100' style={{height:"300px", objectFit:"cover"}} src="images/event_2.webp" alt="" />
+                <img className='img-fluid w-100 rounded-3 shadow' style={{height:"300px", objectFit:"cover"}} src="images/event_2.webp" alt="" />
               </div>
               <div className='col-lg-3 col-5 d-none d-md-inline'>
-                <img className='img-fluid w-100' style={{height:"300px", objectFit:"cover"}} src="images/stockholm_byggplats.webp" alt="" />
+                <img className='img-fluid w-100 rounded-3 shadow' style={{height:"300px", objectFit:"cover"}} src="images/stockholm_byggplats.webp" alt="" />
               </div>
               <div className='col-4 d-none d-lg-inline'>
-                <img className='img-fluid w-100' style={{height:"300px", objectFit:"cover"}} src="images/arbetsplats-1920x1280.jpg" alt="" />
+                <img className='img-fluid w-100 rounded-3 shadow' style={{height:"300px", objectFit:"cover"}} src="images/arbetsplats-1920x1280.jpg" alt="" />
               </div>
               <div className='col-lg-6'>
-                <img className='img-fluid w-100' style={{height:"300px", objectFit:"cover", objectPosition:"0% 85%"}} src="images/stockholm_byggplats_2.webp" alt="" />
+                <img className='img-fluid w-100 rounded-3 shadow' style={{height:"300px", objectFit:"cover", objectPosition:"0% 85%"}} src="images/stockholm_byggplats_2.webp" alt="" />
               </div>
               <div className='col-6 d-none d-lg-inline'>
-                <img className='img-fluid w-100' style={{maxHeight:"300px", objectFit:"cover"}} src="images/byggställning.webp" alt="" />
+                <img className='img-fluid w-100 rounded-3 shadow' style={{maxHeight:"300px", objectFit:"cover"}} src="images/byggställning.webp" alt="" />
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function AboutPage() {
             <h2 className='text-center mb-4 mb-sm-5'>Vad kännetecknar oss?</h2>
             <div className='row g-4 justify-content-center'>
               <div className='col-lg-4 col-md-6'>
-                <div className='card card-body border-0 shadow-sm'>
+                <div className='card card-body border-0 shadow bg-light'>
                   <div className='d-flex align-items-center gap-3'>
                   <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64"  
                     fill="#fd6e01" viewBox="0 0 24 24" >
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className='col-lg-4 col-md-6'>
-                <div className='card card-body border-0 shadow-sm'>
+                <div className='card card-body border-0 shadow bg-light'>
                   <div className='d-flex align-items-center gap-3'>
                   <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64"  
                     fill="#fd6e01" viewBox="0 0 24 24" >
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className='col-lg-4 col-md-6'>
-                <div className='card card-body border-0 shadow-sm'>
+                <div className='card card-body border-0 shadow bg-light'>
                   <div className='d-flex align-items-center gap-3'>
                   <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64"  
                     fill="#fd6e01" viewBox="0 0 24 24" >
@@ -116,7 +116,7 @@ export default function AboutPage() {
         <section className='py-4 py-sm-5'>
           <div className='container mb-4 mb-lg-5' style={{maxWidth:"650px"}}>
             <h2 className='mb-4'>Vanliga frågor</h2>
-            <div className="accordion shadow-sm border-0" id="FAQ">
+            <div className="accordion  shadow bg-light border-0" id="FAQ">
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

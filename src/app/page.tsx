@@ -31,16 +31,11 @@ export default function HomePage() {
   return (
     <>
     <main>
-        <section className='vh-100 d-flex justify-content-center align-items-center'>
-          <img src="/images/lansinfra-logo.png" className='img-fluid' width={1000} alt="" />
-        </section>
-        <section className='position-relative' style={{height:"90vh", backgroundImage:"url(/images/arbetsplats-1920x1280.jpg)", backgroundSize:"cover", overflow:"hidden", backgroundAttachment:"fixed"}}>
-          <div className='position-absolute w-100 h-100 opacity-50 bg-dark'></div>
-          <div className='container position-relative h-100 d-flex justify-content-center align-items-start flex-column pb-5'>
-            <h1 className='text-white mb-3' style={{maxWidth:"650px"}}>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-            <p className='lead text-white' style={{maxWidth:"650px"}}>Soluta commodi veniam, aut cum reiciendis quaerat laborum vel dolores. Dolore, tenetur!</p>
-            <a className='btn btn-lansinfra-primary btn-lg mt-2' href="/kontakt">Kontakta oss</a>
-          </div>
+        <section className='position-relative d-flex justify-content-center align-items-center pb-5' style={{height:"40vw", backgroundColor:"black",}}>
+          <video style={{width:"100vw"}} autoPlay loop muted>
+            <source src="/images/lansinfra-intro.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <div className="shape-divider" style={{marginBottom:"-5px"}}>
               <svg
                 viewBox="0 0 1440 120"
@@ -62,6 +57,7 @@ export default function HomePage() {
               </svg>
           </div>
         </section>
+        
         <section className='pt-4 position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0", paddingBottom:"160px !important"}}>
           <div className='container mt-5'>
             <div className='d-flex flex-column flex-lg-row w-100 justify-content-between align-items-lg-end mb-4'>
@@ -73,9 +69,9 @@ export default function HomePage() {
                 <a className='link-lansinfra-orange' href="/om-oss">Läs mer om våra tjänster &#8594;</a>
               </div>
             </div>
-            <div className='mt-5 rounded-5 overflow-hidden shadow' style={{backgroundImage:"url(/images/stockholm_byggplats.webp)", backgroundSize:"cover", backgroundPosition:"0 20%"}}>
-              <div id='data-bg-target' className='p-5 shadow h-100' style={{backgroundSize:"cover", backgroundPosition:"0 20%"}}>
-                <div className='row g-4 text-dark my-5 py-5'>
+            <div className='mt-4 mt-sm-5 rounded-5 overflow-hidden shadow' style={{backgroundImage:"url(/images/stockholm_byggplats.webp)", backgroundSize:"cover", backgroundPosition:"0 20%"}}>
+              <div id='data-bg-target' className='p-4 p-md-5 shadow h-100' style={{backgroundSize:"cover", backgroundPosition:"0 20%"}}>
+                <div className='row g-4 text-dark my-4 my-sm-5 py-4 py-sm-5'>
                   <div className='col-lg-3 col-sm-6'>
                     <div data-bg="stockholm_byggplats.webp" className='card card-hover card-body p-4 border-0 shadow'>
                       <h3 className='fs-5 mt-3'>Tjänst 1</h3>
@@ -165,13 +161,24 @@ export default function HomePage() {
               <p className='mb-0' style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat.</p>            
               <div className='mt-4'>
               <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
+
+                breakpoints={{
+                  767: {
+                    slidesPerView: 2,
+                  },
+                  1200: {
+                    slidesPerView: 3,
+                  },
+                }}
+
                 spaceBetween={0}
                 freeMode={true}
                 navigation={true}
                 pagination={{
                   clickable: true,
                 }}
+                
                 modules={[FreeMode, Pagination, Navigation]}
               >
                 <SwiperSlide>
@@ -219,25 +226,25 @@ export default function HomePage() {
           </div>
         </section>
         
-        <section className='py-5 position-relative overflow-hidden d-flex align-items-center justify-content-center' style={{minHeight:"800px"}}>
+        <section className='p-5 mb-4 position-relative overflow-hidden d-flex align-items-center justify-content-center'>
           <div className='row g-4 position-absolute'>
-            <div className='col-4'>
-              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='col-6 col-lg-4'>
+              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" style={{minHeight:"350px", objectFit:"cover"}} alt="" />
             </div>
-            <div className='col-4'>
-              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='col-6 col-lg-4'>
+              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" style={{minHeight:"350px", objectFit:"cover"}} alt="" />
             </div>
-            <div className='col-4'>
-              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='col-6 col-lg-4'>
+              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" style={{minHeight:"350px", objectFit:"cover"}} alt="" />
             </div>
-            <div className='col-4'>
-              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='col-6 col-lg-4'>
+              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" style={{minHeight:"350px", objectFit:"cover"}} alt="" />
             </div>
-            <div className='col-4'>
-              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='col-6 col-lg-4'>
+              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" style={{minHeight:"350px", objectFit:"cover"}} alt="" />
             </div>
-            <div className='col-4'>
-              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" alt="" />
+            <div className='col-6 col-lg-4'>
+              <img className='img-fluid' src="/images/arbetsplats-1920x1280.jpg" style={{minHeight:"350px", objectFit:"cover"}} alt="" />
             </div>
           </div>
           <div className='position-relative'>
