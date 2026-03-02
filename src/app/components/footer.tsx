@@ -3,52 +3,38 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <div className='container'>
-      <footer className="d-flex flex-column flex-md-row flex-md-wrap justify-content-between align-items-md-start py-3 my-4 gap-1">
-        <div className='col-md-4 mb-0 d-flex flex-column order-md-1'>
-          <p className="d-none d-md-inline fw-bold mb-2">
-            © 2025 LänsInfra AB
-          </p>
-          <span className='fs-sm mb-1'>Org.nr: 55XXXX-XXXX</span>
-          <a className='mb-1 nav-link fs-sm' href="mailto:info@länsinfra.se">info@lansinfra.se</a>
-          <a className='nav-link fs-sm' href="tel:0701234567">070 123 45 67</a>
-        </div>
-
-        <div className='order-first order-md-2 mb-4 mb-md-0 '>
-          <a href='/' className='d-flex align-items-center text-decoration-none'>
-            <Image className='me-2' src="/images/lansinfra-logo-icon.png" height={30} width={25} alt="" />
-            <div className='fw-bold mt-1' style={{lineHeight:"13px", fontSize:"10px"}}>
-              <span className='fs-5 text-dark'>LänsInfra AB</span>
-            </div>
-          </a>
+    <footer className="bg-dark py-5">
+      <div className='container text-white'>
+        <div className='w-100 d-flex justify-content-between'>
+          <div className='d-flex flex-column align-items-start' style={{maxWidth:"450px"}}>
+            <img className='mb-3' style={{marginLeft:"-4px"}} src="/images/lansinfra-logo-v-white.png" width={200} alt="LänsInfra AB" />
+            <span className='fs-sm mb-3'>Org.nr: 55XXXX-XXXX</span>
+            <p className='mb-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quibusdam accusantium consequuntur consequatur pariatur.</p>
+          </div>
           <div>
-            
+            <h6 className='text-white fw-bold'>Navigera</h6>
+            <ul className='d-flex flex-column gap-2 ps-0 mb-4' style={{listStyle:"none"}}> 
+              <li><a className='nav-link text-white' href="">Hem</a></li>
+              <li><a className='nav-link text-white' href="">Tjänster</a></li>
+              <li><a className='nav-link text-white' href="">Om oss</a></li>
+              <li><a className='nav-link text-white' href="">Kontakt</a></li>
+            </ul>
+            <a className='icon mt-4' href=""><img src="/images/linkedinsvg.png" width={32} alt="LinkedIn" /></a>
+          </div>
+          <div>
+            <div className='d-flex flex-column mb-4'>
+              <h6 className='text-white fw-bold'>Kontakt</h6>
+              <a className='nav-link text-white' href="">070 123 45 67</a>
+              <a className='nav-link text-white' href="">info@lanssakerhet.se</a>
+            </div>
+            <div className='d-flex flex-column'>
+              <h6 className='text-white fw-bold'>Kontor</h6>
+              <span><span style={{fontSize:"13px"}}>Lärargatan 5,</span> Floby</span>
+              <span><span style={{fontSize:"13px"}}>Södra Storgatan 37,</span> Helsingborg</span>
+            </div>
           </div>
         </div>
-
-        <ul  className="nav col-md-4 flex-wrap flex-column flex-md-row justify-content-md-end order-md-3 mt-4 mt-md-0 gap-3">
-          <li  className="nav-item">
-            <a href="/" className="nav-link p-0">
-              Hem
-            </a>
-          </li>
-          <li  className="nav-item">
-            <a href="/tjanster"  className="nav-link p-0">
-              Tjänster
-            </a>
-          </li>
-          <li  className="nav-item">
-            <a href="/om-oss"  className="nav-link p-0">
-              Om oss
-            </a>
-          </li>
-          <li  className="nav-item">
-            <a href="/kontakt"  className="nav-link p-0">
-              Kontakt
-            </a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+      </div>
+    </footer>
   )
 }

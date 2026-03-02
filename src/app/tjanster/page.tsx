@@ -15,7 +15,7 @@ export default function AboutPage() {
                 <p className='mb-0' style={{maxWidth:"650px"}}>Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere! Doloremque expedita molestias obcaecati dignissimos dolorum quibusdam id enim ut eaque, laboriosam, tenetur, nihil quaerat culpa assumenda quam eligendi officia.</p>
               </div>
               <div className='col-lg-5 order-first order-lg-last'>
-                <img src="images/områdesskydd-grafik.jpg" className='img-fluid w-100' alt="" style={{maxHeight:"300px", objectFit:"cover"}}/>
+                <img src="images/omradesskydd-grafik.jpg" className='img-fluid w-100' alt="" style={{maxHeight:"300px", objectFit:"cover"}}/>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function AboutPage() {
                 <p className='mb-0' style={{maxWidth:"650px"}}>Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere! Doloremque expedita molestias obcaecati dignissimos dolorum quibusdam id enim ut eaque, laboriosam, tenetur, nihil quaerat culpa assumenda quam eligendi officia.</p>
               </div>
               <div className='col-xl col-lg-6'>
-                <img src="images/områdesskydd-grafik.jpg" style={{maxHeight:"300px", objectFit:"cover"}} className='img-fluid w-100' alt="" />
+                <img src="images/omradesskydd-grafik.jpg" style={{maxHeight:"300px", objectFit:"cover"}} className='img-fluid w-100' alt="" />
               </div>
             </div>
           </div>
@@ -108,13 +108,13 @@ export default function AboutPage() {
           <div className='container'>
             <div className='row g-4 g-lg-5 align-items-center'>
               <div className='col-md-6 h-100'>
-                <img className="img-fluid w-100 h-100" style={{objectFit:"cover"}} src="/images/områdesskydd-grafik.jpg" alt="" />
+                <img className="img-fluid w-100 h-100" style={{objectFit:"cover"}} src="/images/omradesskydd-grafik.jpg" alt="" />
               </div>
               <div className='col-md-6'>
                 <h2>Varför välja oss?</h2>
                 <p style={{maxWidth:"750px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab neque, libero esse voluptatibus reprehenderit dolores corporis reiciendis ea alias, soluta amet, perferendis id repellendus quod quia earum beatae hic enim optio dicta natus deserunt dolor! Officia aut temporibus nam!</p>
                 <p style={{maxWidth:"750px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate laboriosam voluptates, voluptatibus qui ipsa cum nobis voluptas accusantium rem?</p>
-                <a href="/om-oss" className='btn btn-dark mt-2'>Läs mer om oss</a>
+                <a href="/om-oss" className='link-lansinfra-orange mt-2'>Läs mer om oss</a>
               </div>
             </div>
           </div>

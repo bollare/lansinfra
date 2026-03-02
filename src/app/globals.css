@@ -4,6 +4,9 @@
   --lansinfra-light-gray: #D9D9D9;
   --lansinfra-secondary: #08515b;
   --lansinfra-secondary-rgb: 8, 81, 91;
+  --swiper-navigation-color: #F46A1F;
+  --swiper-pagination-color: #F46A1F;
+
 }
 
 html,
@@ -35,13 +38,13 @@ h6 {
 .link-lansinfra-orange {
   font-weight: 600;
   color: var(--lansinfra-orange);
-  text-decoration-color: var(--lansinfra-orange);
+  max-width: fit-content;
+  text-decoration: none;
 }
 
 .link-lansinfra-orange:hover,
 .link-lansinfra-orange:focus {
-  color: #c45a00;
-  text-decoration-color: #c45a00;
+  color: #ab4914;
 }
 
 .bg-lansinfra-orange {
@@ -62,6 +65,20 @@ h6 {
   background-color: var(--lansinfra-orange);
   border-color: var(--lansinfra-orange);
   color: #fff;
+  font-size: 15px;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.btn-lg {
+  font-size: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .btn-lansinfra-primary:hover {
@@ -102,6 +119,7 @@ h6 {
 
 .btn-dark {
   background-color: #293133 !important;
+  border-radius: 100px;
 }
 
 .btn-dark:hover {
@@ -111,6 +129,7 @@ h6 {
 .btn-secondary {
   background-color: #58677d !important;
   border-color: #58677d;
+  border-radius: 100px;
 }
 
 .btn-secondary:hover {
@@ -212,11 +231,24 @@ h6 {
 }
 
 .card-hover{
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
   transition: all 100ms;
 }
 
 .card-hover:hover{
   background-color: white;
+}
+
+.icon:hover {
+  filter: brightness(80%);
+}
+
+.swiper-button-prev{
+ padding-right: 25px;
+}
+
+.swiper-button-next{
+  padding-left: 25px;
+
 }

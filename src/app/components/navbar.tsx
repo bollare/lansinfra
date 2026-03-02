@@ -28,7 +28,7 @@ export default function Navbar() {
                 <a className="nav-link" href="/om-oss">Om oss</a>
               </li>
             </ul>
-            <a className='btn btn-lansinfra-primary py-1 px-3 ms-md-2' href="/kontakt">Kontakt</a>
+            <a className='btn btn-lansinfra-primary ms-md-2' href="/kontakt">Kontakt</a>
           </div>
         </div>
       </nav>
