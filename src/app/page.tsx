@@ -142,7 +142,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <div className='position-relative w-100 d-flex align-items-center my-5' style={{minHeight:"600px", backgroundImage:"url('/images/stockholm_Byggplats_2.webp')", backgroundSize:"cover", backgroundPosition:"100% 50%", backgroundAttachment:"fixed"}}>
+        <div className='position-relative w-100 d-flex align-items-center my-5' style={{minHeight:"600px", backgroundImage:"url('/images/stockholm_byggplats_2.webp')", backgroundSize:"cover", backgroundPosition:"100% 50%", backgroundAttachment:"fixed"}}>
           <div className='position-absolute w-100 h-100 bg-dark opacity-50'></div>
           <div className='position-relative container py-5 text-center text-light d-flex flex-column align-items-center'>
               <h2 className='text-white fs-1 mb-4' style={{maxWidth:"1000px"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, soluta!</h2>
