@@ -36,26 +36,6 @@ export default function HomePage() {
             <source src="/images/lansinfra-intro.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="shape-divider" style={{marginBottom:"-5px"}}>
-              <svg
-                viewBox="0 0 1440 120"
-                preserveAspectRatio="none"
-              >
-                <path
-                  d="
-                    M0,80
-                    C120,100 240,40 360,50
-                    C480,60 600,110 720,100
-                    C840,90 960,40 1080,50
-                    C1200,60 1320,100 1440,90
-                    L1440,120
-                    L0,120
-                    Z
-                  "
-                  fill="#fbf4f0"
-                />
-              </svg>
-          </div>
         </section>
         
         <section className='pt-4 position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0", paddingBottom:"160px !important"}}>
@@ -103,26 +83,6 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="shape-divider" style={{filter:"flipH"}}>
-            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-                <path
-                  d="
-                    M0,85
-                    C70,110 130,45 210,60
-                    C280,75 310,120 380,100
-                    C450,80 520,35 600,55
-                    C660,70 710,115 780,95
-                    C850,75 900,40 980,65
-                    C1050,90 1100,120 1180,100
-                    C1260,80 1320,50 1440,85
-                    L1440,120
-                    L0,120
-                    Z
-                  "
-                  fill="#ffffff"
-                />
-            </svg>
           </div>
         </section>
 
