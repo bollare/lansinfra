@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <>
     <main>
-        <section className='position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0"}}>
+        <section className='position-relative overflow-hidden' style={{backgroundColor:"#ffebe8"}}>
           <div className='position-absolute w-100 h-100 d-flex justify-content-end'>
             <img className='w-50 ms-5 shadow h-100' src="/images/stockholm_byggplats_2.webp" style={{borderBottomLeftRadius:"200px"}} alt="" />
           </div>
@@ -101,16 +101,17 @@ export default function AboutPage() {
                     L0,120
                     Z
                   "
-                  fill="#f8f9fa"
+                  fill="#ffebe8"
                 />
             </svg>
           </div>
         </section>
-        <section className='pt-4 pt-sm-5 pb-5 mb-lg-4 bg-light'>
+        <section className='pt-4 pt-sm-5' style={{backgroundColor:"#ffebe8", paddingBottom:"100px"}}>
+          
           <div className='container'>
             <div className='row g-4 g-lg-5 align-items-center'>
               <div className='col-md-6 h-100'>
-                <img className="img-fluid w-100 h-100" style={{objectFit:"cover"}} src="/images/omradesskydd-grafik.jpg" alt="" />
+                <img className="img-fluid w-100 h-100 rounded-5 shadow" style={{objectFit:"cover"}} src="/images/omradesskydd-grafik.jpg" alt="" />
               </div>
               <div className='col-md-6'>
                 <h2>Varför välja oss?</h2>

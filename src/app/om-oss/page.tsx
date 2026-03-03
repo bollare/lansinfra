@@ -6,13 +6,13 @@ export default function AboutPage() {
   return (
     <>
     <main>
-        <section className='pt-5 position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0"}}>
+        <section className='pt-5 position-relative overflow-hidden'>
           <div className='container'>
             <div className='row align-items-center mb-5'>
               <div className='col-lg-7 mt-4 mt-lg-0'>
                 <h1 className='fs-1'>Om LänsInfra AB</h1>
                 <p style={{maxWidth:"650px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempore eum quibusdam incidunt maiores quaerat nam reprehenderit vitae delectus tempora. Magni quam amet quaerat mollitia sunt ipsam beatae aspernatur aut tenetur tempore, omnis assumenda dignissimos blanditiis doloremque, ducimus dolorem possimus quod facere!</p>
-                <div className='d-flex flex-wrap gap-4 gap-sm-5'>
+                <div className='d-flex flex-wrap gap-4 gap-sm-5 mt-5'>
                   <div className='d-flex flex-column'>
                     <h2 className='fs-6 mb-1 fw-bold'>Floby</h2>
                     <span>Lärargatan 5</span>
@@ -64,12 +64,12 @@ export default function AboutPage() {
                     L0,120
                     Z
                   "
-                  fill="rgb(255, 255, 255)"
+                  fill="#ffebe8"
                 />
             </svg>
           </div>
         </section>
-        <section className='py-4 py-sm-5 bg-white'>
+        <section className='py-4 py-sm-5' style={{backgroundColor:"#ffebe8"}}>
           <div className='container'>
             <h2 className='text-center mb-4 mb-sm-5'>Vad kännetecknar oss?</h2>
             <div className='row g-4 justify-content-center'>
@@ -110,49 +110,55 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        
-        <section className='py-4 py-sm-5'>
-          <div className='container mb-4 mb-lg-5' style={{maxWidth:"650px"}}>
-            <h2 className='mb-4'>Vanliga frågor</h2>
-            <div className="accordion  shadow bg-light border-0" id="FAQ">
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Fråga #1
-                  </button>
-                </h2>
-                <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#FAQ">
-                  <div className="accordion-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, neque similique enim itaque voluptas culpa! Nesciunt placeat voluptate totam voluptatem labore ipsam veniam molestiae?
+
+            <div className='mt-5 row'>
+              <div className='col-6'>
+                <h2 className='mb-4 mt-5'>Vanliga frågor</h2>
+                <p>
+                  Hittar du inte svaret på dina funderingar är du alltid välkommen att kontakta oss direkt via telefon eller mail!
+                </p>
+                <div className="accordion  shadow bg-light border-0" id="FAQ">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Fråga #1
+                      </button>
+                    </h2>
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#FAQ">
+                      <div className="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, neque similique enim itaque voluptas culpa! Nesciunt placeat voluptate totam voluptatem labore ipsam veniam molestiae?
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Fråga #2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#FAQ">
+                      <div className="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquid rem quidem at! Temporibus accusamus rerum dolorum doloremque. Vero nostrum id porro quos, consequatur nihil doloribus voluptatum voluptatibus magnam odit?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Fråga #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#FAQ">
+                      <div className="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt ipsum doloribus aut porro dolorum magni, fugiat optio fugit sapiente iste, explicabo accusantium quod amet? Labore cupiditate accusantium autem earum necessitatibus blanditiis corporis! Perferendis, accusamus similique harum tempore quam vel.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Fråga #2
-                  </button>
-                </h2>
-                <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#FAQ">
-                  <div className="accordion-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquid rem quidem at! Temporibus accusamus rerum dolorum doloremque. Vero nostrum id porro quos, consequatur nihil doloribus voluptatum voluptatibus magnam odit?</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Fråga #3
-                  </button>
-                </h2>
-                <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#FAQ">
-                  <div className="accordion-body">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt ipsum doloribus aut porro dolorum magni, fugiat optio fugit sapiente iste, explicabo accusantium quod amet? Labore cupiditate accusantium autem earum necessitatibus blanditiis corporis! Perferendis, accusamus similique harum tempore quam vel.</p>
-                  </div>
-                </div>
-              </div>
+              <div className='col-6'>
+                <img src="/images/event_2.webp" className='img-fluid rounded-3 shadow ms-4' alt="" />
+              </div>              
             </div>
           </div>
         </section>

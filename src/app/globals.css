@@ -1,6 +1,6 @@
 :root {
   --lansinfra-orange: #F46A1F;
-  --lansinfra-dark-gray: #293133;
+  --lansinfra-dark-gray: #121010;
   --lansinfra-light-gray: #D9D9D9;
   --lansinfra-secondary: #08515b;
   --lansinfra-secondary-rgb: 8, 81, 91;
@@ -110,15 +110,15 @@ h6 {
 }
 
 .bg-dark {
-  background-color: #293133 !important;
+  background-color: #121010 !important;
 }
 
 .text-dark {
-  color: #293133 !important;
+  color: #121010 !important;
 }
 
 .btn-dark {
-  background-color: #293133 !important;
+  background-color: #121010 !important;
   border-radius: 100px;
 }
 
@@ -163,7 +163,7 @@ h6 {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #fbf4f0;
+  background-color: #ffebe8;
   color: #000000;
   box-shadow: none;
   font-weight: bold;
@@ -250,4 +250,16 @@ h6 {
 
 .swiper-button-next{
   padding-left: 25px;
+}
+
+.shadow-cta {
+  box-shadow: #da5e1c 1px 1px 10px !important;
+}
+
+.shadow-cta:hover {
+  box-shadow: #da5e1c 1px 1px 1px !important;
+}
+
+p {
+  max-width: 650px;
 }

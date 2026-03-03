@@ -36,7 +36,7 @@ export default function HomePage() {
             <source src="/images/lansinfra-intro.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="shape-divider" style={{filter:"flipH"}}>
+          <div className="shape-divider" style={{filter:"flipH", marginBottom:"-1px"}}>
             <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
                 <path
                   d="
@@ -52,13 +52,13 @@ export default function HomePage() {
                     L0,120
                     Z
                   "
-                  fill="#fbf4f0"
+                  fill="#ffebe8"
                 />
             </svg>
           </div>
         </section>
         
-        <section className='pt-4 position-relative overflow-hidden' style={{backgroundColor:"#fbf4f0", paddingBottom:"160px !important"}}>
+        <section className='pt-4 position-relative overflow-hidden' style={{backgroundColor:"#ffebe8", paddingBottom:"160px !important"}}>
           <div className='container mt-5'>
             <div className='d-flex flex-column flex-lg-row w-100 justify-content-between align-items-lg-end mb-4'>
               <div>
@@ -104,7 +104,7 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-          <div className="shape-divider" style={{filter:"flipH"}}>
+          <div className="shape-divider" style={{filter:"flipH", marginBottom:"-1px"}}>
             <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
                 <path
                   d="
@@ -120,7 +120,7 @@ export default function HomePage() {
                     L0,120
                     Z
                   "
-                  fill="rgb(255, 255, 255)"
+                  fill="#ffff"
                 />
             </svg>
           </div>
@@ -274,6 +274,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        <CTA></CTA>
     </main>
     </>
   )

@@ -5,13 +5,13 @@ export default function AboutPage() {
   return (
     <>
     <main>
-      <section className='py-5 position-relative overflow-hidden bg-light'>
+      <section className='py-5 position-relative overflow-hidden'>
         <div className='container pb-4 pb-lg-5 mb-5'>
           <div className="row pt-lg-5 pt-4 align-items-start">
-            <div className="col-lg-6 col-xl-6">
+            <div className="col-lg-6 col-xl-7">
               <h1>Kontakta oss</h1>
 
-              <p style={{ maxWidth: "700px" }}>
+              <p style={{ maxWidth: "600px" }}>
                 Har du frågor, funderingar eller vill veta mer om hur vi arbetar?
                 Hör gärna av dig till oss så hjälper vi dig vidare och ger dig den
                 information du behöver.
@@ -68,7 +68,7 @@ export default function AboutPage() {
 
               <h2>Vanliga frågor</h2>
 
-              <div className="accordion shadow-sm border-0 mt-4" id="FAQ">
+              <div className="accordion shadow border-0 mt-4 me-4 me-md-5" id="FAQ">
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -108,7 +108,8 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="mt-5 mt-lg-0 ps-lg-5 ps-xl-0 col-lg-6 col-xl-5 offset-xxl-1">
+            <div className="mt-5 mt-lg-0 ps-lg-5 ps-xl-0 col-lg-6 col-xl-5">
+              <img src="/images/event.webp" className='img-fluid rounded-3 shadow mb-4' alt="" />
               <form
                 action="/contact-submit"
                 method="POST"
@@ -160,26 +161,26 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-        <div className="shape-divider" style={{filter:"flipH"}}>
-            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-                <path
-                  d="
-                    M0,85
-                    C70,110 130,45 210,60
-                    C280,75 310,120 380,100
-                    C450,80 520,35 600,55
-                    C660,70 710,115 780,95
-                    C850,75 900,40 980,65
-                    C1050,90 1100,120 1180,100
-                    C1260,80 1320,50 1440,85
-                    L1440,120
-                    L0,120
-                    Z
-                  "
-                  fill="#ffffff"
-                />
-            </svg>
-          </div>
+        <div className="shape-divider" style={{filter:"flipH", marginBottom:"-1px"}}>
+          <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+              <path
+                d="
+                  M0,85
+                  C70,110 130,45 210,60
+                  C280,75 310,120 380,100
+                  C450,80 520,35 600,55
+                  C660,70 710,115 780,95
+                  C850,75 900,40 980,65
+                  C1050,90 1100,120 1180,100
+                  C1260,80 1320,50 1440,85
+                  L1440,120
+                  L0,120
+                  Z
+                "
+                fill="#121010"
+              />
+          </svg>
+        </div>
       </section>
     
     </main>
